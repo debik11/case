@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+	font-size: 40px;
+}
+.block{
+	height: 500px;
+	width: 500px;
+	background-color: #0000ff;
+	color: white;
+	border: 5px solid red;
+	box-shadow: 20px -20px 40px black;
+	margin-bottom: 20px;
+}
+.block2{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	transition: background-color 0.5s ease;
+	transition: width 0.5s ease;
+}
+.block2:hover{
+	background-color: green;
+	width: 300px;
+}
+.gruppe{
+	display: grid;
+	height: 100vh;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	clear: both;
+}
+.element{
+	background-color: green;
+}
+.grg{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	clear: both;
+}
+.grg1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}
